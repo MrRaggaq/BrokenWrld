@@ -290,7 +290,7 @@
 			
 		
 				let div = document.createElement('div');
-				div.className = "your-cards__cards_card";
+				//div.className = "your-cards__cards_card";
 				div.onclick = async function () { 
 					
 				
@@ -319,6 +319,7 @@
 				
 				let img = document.createElement('img');
 				img.src = "https://ipfs.io/ipfs/" + value.data.img;
+				img.width = 350;
 				div.append(img);
 				document.getElementById('bag').append(div);
 	
