@@ -15,7 +15,7 @@ async function WaxLogin(){
 
 	if (wax == null)
 		wax = new waxjs.WaxJS({
-		  rpcEndpoint: 'http://api.wax.alohaeos.com',
+		  rpcEndpoint: 'https://api.waxsweden.org' ,//'http://api.wax.alohaeos.com',
 		  tryAutoLogin: false
 		});
 	
