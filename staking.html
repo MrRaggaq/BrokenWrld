@@ -397,6 +397,11 @@
 				blocksBehind: 3,
 				expireSeconds: 30
 			  });
+			  
+			  setTimeout(async function() {
+				  await GetAssets();
+			  }, 2000);
+			  
 			} catch(e) {
 				console.log(e.message);
 				window.alert(e.message);
