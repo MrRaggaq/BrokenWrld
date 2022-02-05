@@ -308,7 +308,9 @@
 							div.remove();
 							var popup_menu = document.querySelector('.popup-stalking-wrapper');
 							popup_menu.click();
-							GetUserSlots();
+							setTimeout(async function() {
+							  await GetUserSlots();
+							}, 1000);
 						}
 							
 					} else {
@@ -419,8 +421,6 @@
 				  table: 'staking',
 				  limit: 20
 				});
-				
-				
 				
 				Object.entries(res.rows).forEach(async function (value) {
 				
