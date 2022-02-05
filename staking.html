@@ -285,7 +285,9 @@
 		
 		async function GetAssets() {
 			const assets = await atomicApi.getAssets({owner: wax.userAccount, collection_name: "brokenwrld55"}, 1, 1000);
-	
+			
+			document.getElementById('bag').innerHTML = "";
+			
 			Object.values(assets).forEach(function (value) {
 			
 		
