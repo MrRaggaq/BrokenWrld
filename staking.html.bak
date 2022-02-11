@@ -222,19 +222,19 @@
 					<div id="slot0" class="col-sm staking_block">
 					  Empty
 					</div>
-					 <center><button id="btn_unstake0" class="unstake-button" style="display: none;">Unstake</button></center>
+					 <center><button id="btn_unstake0" class="unstake-button">Unstake</button></center>
 					</td>
 					<td>
 					<div id="slot1" class="col-sm staking_block">
 					  Empty
 					</div>
-					 <center><button id="btn_unstake1" class="unstake-button" style="display: none;">Unstake</button></center>
+					 <center><button id="btn_unstake1" class="unstake-button">Unstake</button></center>
 					</td>
 					<td>
 					<div id="slot2" class="col-sm staking_block">
 					  Empty
 					</div>
-					<center><button id="btn_unstake2" class="unstake-button" style="display: none;">Unstake</button></center>
+					<center><button id="btn_unstake2" class="unstake-button" >Unstake</button></center>
 					</td>
 				</table>
 			</center>
